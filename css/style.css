@@ -255,7 +255,7 @@ header {
     background: url("../assets/img/big_bg_header.webp") center/cover fixed;
   }
 }
-header::before {
+header::after {
   display: block;
   content: "";
   position: absolute;
@@ -289,11 +289,11 @@ h1 {
 }
 
 .container-button-header {
-  width: 100%;
   display: flex;
   justify-content: center;
   position: absolute;
   flex-wrap: wrap;
+  width: 100%;
   bottom: 20px;
   margin: 0 auto;
   z-index: 1;
@@ -309,7 +309,7 @@ h1 {
   width: 80px;
   border-radius: 50%;
   background-color: #1E2A38;
-  margin: 25px;
+  margin: 20px;
   opacity: 0;
   display: flex;
   justify-content: center;
