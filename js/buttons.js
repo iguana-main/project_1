@@ -1,6 +1,6 @@
 "use strict";
 
-const btns = document.querySelectorAll('.button-header');
+const btns = document.querySelectorAll('.button-header, .check-offer-button');
 
 const modal = document.querySelector('#modal');
 
