@@ -18,8 +18,10 @@
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    @include mq {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .col {

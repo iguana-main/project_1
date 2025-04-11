@@ -30,10 +30,6 @@ textarea{
 
 button{
     width: 25%;
-
-    @include mq ("l"){
-        width: 30%;
-    }
     padding: 14px; 
     margin-top: .5rem;
     background-color: $color-terracotta;
