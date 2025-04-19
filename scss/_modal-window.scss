@@ -22,17 +22,16 @@
     }
 
     .title{
-        font-weight: bold;
-        font-size: 325%;
+        font-weight: 400;
+        font-size: 335%;
     }
 
 }
 
 #modal-window {
-    background-color: lightgrey;
+    background-color: $color-beige;
     width: 95%;
     height: 80%;
-    padding: 10px;
     @include mq{
         height: 50%;
         width: 50%;
@@ -40,7 +39,7 @@
     } 
     border-radius: 6px;
     position: relative;
-
+    
     .material-symbols-outlined {
         position: absolute;
         right: 5px;

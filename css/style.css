@@ -85,15 +85,14 @@ p {
   margin: 30px 0;
 }
 .modal-window .title {
-  font-weight: bold;
-  font-size: 325%;
+  font-weight: 400;
+  font-size: 335%;
 }
 
 #modal-window {
-  background-color: lightgrey;
+  background-color: #EDE0D4;
   width: 95%;
   height: 80%;
-  padding: 10px;
   border-radius: 6px;
   position: relative;
 }
@@ -297,6 +296,7 @@ h1 {
   bottom: 20px;
   margin: 0 auto;
   z-index: 1;
+  bottom: 5%;
 }
 @media screen and (min-width: 726px) {
   .container-button-header {
@@ -416,7 +416,7 @@ section h3 {
 }
 @media screen and (min-width: 1124px) {
   section p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
