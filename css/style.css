@@ -266,10 +266,15 @@ header::after {
 h1 {
   font-weight: normal;
   text-align: center;
-  flex-basis: 17%;
+  flex-basis: 25%;
   font-size: 5rem;
   z-index: 1;
   animation: animation-opacity 2s forwards;
+}
+@media screen and (min-width: 726px) {
+  h1 {
+    flex-basis: 17%;
+  }
 }
 @media screen and (min-width: 726px) {
   h1 {
